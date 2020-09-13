@@ -1,23 +1,31 @@
 # Election_Analysis
 Election Analysis using Python
 
-## Project Overview
+## Overview of Election Audit
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+1. Calculate the votes for each county
+2. Calculate the vote percentage for each county
+3. Determine the county with the highest voter turnout
+4. Calculate the votes for each candidate
+5. Calculate the vote percentages for each candidate
+6. Determine the winning candidate based on popular vote
 
-1. Calculate the total number of votes cast
-2. Get a complete list of candidates who received votes
-3. Calculate the total number of votes each candidate received
-4. Calculate the percentage of votes each candidate won
-5. Determine the winner of the election based on popular vote. 
+## Election Audit Results
 
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.7.9, Visual Studio Code
-
-## Summary
+IMPORTANT: I COULD NOT FIGURE OUT HOW TO PRINT TO TXT.
 
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
+- The Counties included were:
+  -Jefferson
+  -Denver
+  -Arapahoe  
+-The county results were:
+  -Jefferson County had 10.5% of the vote and 38,855 votes
+  -Denver County had 82.8% of the vote and 306,055 votes.
+  -Arapahoe County had 6.7% of the vote and 24,801 votes.
+-The County with the highest voter turnout was:
+  -Denver County with 82.8% of the vote and 306,055 votes.
 - The candidates were":
   - Charles Casper Stockham
   - Diana DeGette
@@ -28,7 +36,7 @@ The analysis of the election show that:
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
 - The winner of the election was
   - Diana DeGette who received 73.8% of the vote and 272,892 votes
-  
-## Challenge Overview
 
-## Challenge Summary
+## Election Audit Summary
+ There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
+This script can be run to include any election data provided in CSV format. One way to modify the script can be to look for specific "key words" as the headers, and start searching for data underneath each header. Another way could be to present data in tabular form in the text file, or perhaps printing to a word document file (.doc) or even another excel file. 
